@@ -6,7 +6,7 @@
   <meta name="author" content="Dong Yuanxin" />
   
   
-  <title>归档 | 泊然居</title>
+  <title>云服务器转hexo+github | 泊然居</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -38,7 +38,7 @@
     welcome: {"enable":true,"interval":30},
     start_time: "2019-03-04",
     passwords: ["61d906492110106e68c095d8c4fe68a8bc3345958f62a5ab2b8bbd4f9f2849bc", ],
-    is_post: false,
+    is_post: true,
     lock: false,
     author: "Dong Yuanxin",
     share: {"twitter":true,"facebook":true,"weibo":true,"qq":true,"wechat":true},
@@ -106,19 +106,64 @@
 </header>
 <div id="site-process"></div>
     <main>
-      <div class="timeline">
-  <h2 class="timeline-title">归档: 1篇</h2>
+      
+  <div class="passage">
+  <div class="passage-meta">
+    <span>
+      <i class="fa fa-calendar"></i>2019-03-05
+    </span>
+    
+    
+      <span>
+        | <i class="fa fa-unlock-alt"></i>UNLOCK
+      </span>
+    
+  </div>
+  <h1 class="passage-title">
+    云服务器转hexo+github
+  </h1>
   
+  <article class="passage-article">
+    <p>毕设需要用到云服务器，刚好这个云服务器上运行nginx不太稳定，有时访问网站秒连接，有时初始化连接用到20秒以上<br>所以干脆直接撤了云服务器上的网站，改用<code>hexo+github pages</code>    </p>
+<p>不得不说hexo真是个好东西，前端和框架都给你弄好了，改些参数再把hexo在本地配置好传上github pages<br>就能通过username.github.io这个域名直接访问，一站式的傻瓜服务哈哈    </p>
+<p>然后就是绑定个人域名，我的域名是在阿里云上买的，在阿里云控制台修改DNS转接到github.io那个域名就行</p>
+
+  </article>
+  <aside class="table-content" id="site-toc">
+  <div class="table-content-title">
+    <i class="fa fa-arrow-right fa-lg" id="site-toc-hide-btn"></i>
+    <span>目录</span>
+  </div>
+  <div class="table-content-main">
     
-      <h3 class="timeline-subtitle">2019</h3>
-    
-    <div class="timeline-item">
-      <time>2019-03-05</time>
-      <a target="_self" href="/2019/03/05/pages/">云服务器转hexo+github</a>
-    </div>
+  </div>
+</aside>
+  
+    <aside class="passage-copyright">
+      <div>本文作者: 谢杭</div>
+      
+        <div>
+          原文链接: 
+          <a href="" target="_blank">http://yoursite.com/2019/03/05/pages/</a>
+        </div>
+      
+      <div>
+        版权声明: 本博客所有文章除特别声明外, 均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 许可协议. 转载请注明出处!
+      </div>
+    </aside>
+  
   
 </div>
+
     </main>
+    
+      <div class="site-comment-contanier">
+  <p id="site-comment-info">
+    <i class="fa fa-spinner fa-spin"></i> 评论加载中
+  </p>
+  <div id="site-comment">
+  </div>
+</div>
     
     <div class="site-footer-wrapper">
   <footer class="site-footer">
@@ -227,11 +272,11 @@
     </a>
   </div>
   <div class="bottom-bar-right">
-    <a href="javascript:void(0);" data-enable="false" id="site-toc-show-btn">
+    <a href="javascript:void(0);" data-enable="true" id="site-toc-show-btn">
       <i class="fa fa-bars"></i>
     </a>
     
-      <a href="javascript:void(0);" data-enable="false">
+      <a href="#site-comment" data-enable="true">
         <i class="fa fa-commenting"></i>
       </a>
     
